@@ -36,7 +36,7 @@ class Countup:
 if __name__ == '__main__':
 
     cm = Countup()
-    cm.max = 5
+    cm.max = 3
     for i in range(6):
         print('Is it already done?')
         cm.counting_machine()
